@@ -32,7 +32,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
-call plug#end()
+    " Discord presence
+    Plug 'andweeb/presence.nvim'
+    
+    call plug#end()
 "Automatically installs missing plugins
 autocmd VimEnter *
   \  if !empty(filter(copy(g:plugs), '!isdirectory(v:val.dir)'))
