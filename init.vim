@@ -15,3 +15,5 @@ source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
 "Git addition
 source $HOME/.config/nvim/plug-config/signify.vim
+"Discord presence
+source $HOME/.config/nvim/plug-config/discordpresence.vim
