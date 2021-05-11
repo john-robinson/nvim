@@ -34,7 +34,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     "Discord presence
     Plug 'vimsence/vimsence'
-
     call plug#end()
 "Automatically installs missing plugins
 autocmd VimEnter *
