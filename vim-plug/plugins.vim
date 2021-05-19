@@ -34,6 +34,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     "Discord presence
     Plug 'vimsence/vimsence'
+    "Native LSP
+    Plug 'neovim/nvim-lspconfig'
+    Plug 'hrsh7th/nvim-compe'
     call plug#end()
 "Automatically installs missing plugins
 autocmd VimEnter *

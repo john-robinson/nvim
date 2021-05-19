@@ -17,3 +17,6 @@ source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/signify.vim
 "Discord presence
 source $HOME/.config/nvim/plug-config/discordpresence.vim
+"LSP
+source $HOME/.config/nvim/plug-config/lsp-config.vim
+luafile $HOME/.config/nvim/lua/lsp/compe-config.lua
